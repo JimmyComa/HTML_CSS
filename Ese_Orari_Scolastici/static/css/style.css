@@ -1,0 +1,91 @@
+:root {
+    --yellow: #ffff00;
+    --purple: purple;
+    --darkgreen: darkgreen;
+    --lightblue: lightblue;
+    --orange: orange;
+    --gray: gray;
+    --lightgray: lightgray;
+    --red: red;
+    --lightgreen: lightgreen;
+    --blue: blue;
+}
+
+.ita {
+    background-color: var(--yellow);
+}
+
+.mate {
+    background-color: var(--purple);
+}
+
+.sci {
+    background-color: var(--darkgreen);
+}
+
+.dis {
+    background-color: var(--lightblue);
+}
+
+.sto {
+    background-color: var(--orange);
+}
+
+.info {
+    background-color: var(--gray);
+}
+
+.tecn {
+    background-color: var(--red);
+}
+
+.edf {
+    background-color: var(--lightgreen);
+}
+
+.rel {
+    background-color: var(--blue);
+}
+
+.geo {
+    background-color: var(--lightgray);
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: rgb(247, 247, 247);
+}
+
+.row {
+    display: contents;
+}
+
+.col-16 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.multi-row {
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ricre {
+    grid-column: span 5;
+}
+
+.bold{
+    font-weight: bold;
+}
